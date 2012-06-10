@@ -13,4 +13,3 @@ tags
 *.pyc
 *.pyo
 **/_build/**/*.*
-Gemfile.lock
