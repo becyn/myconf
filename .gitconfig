@@ -1,0 +1,23 @@
+[user]
+    name = becyn
+    email = yucalcium.c6@gmail.com
+[core]
+    excludefile = ~/.gitignore
+	pager = lv -c
+
+[alias]
+    graph = log --graph --date-order -C -M --pretty=format:\"<%h> %ad [%an] %Cgreen%d%Creset %s\" --all --date=short
+    st = status
+    df = diff
+    dfc = diff --cached
+    co = checkout
+    last = show -1 HEAD --stat -p
+    me = log --author=asonas
+    ci = commit
+    bull = pull
+    ore = log --graph --date-order -C -M --pretty=format:\"<%h> %ad [%an] %Cgreen%d%Creset %s\" --all --date=short --author=fujiwara
+    dfc = diff --color-words
+
+[color]
+    ui = true
+    diff = true
